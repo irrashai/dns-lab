@@ -1,0 +1,112 @@
+; File written on Wed Dec 17 03:28:40 2014
+; dnssec_signzone version 9.9.5-P1
+com.			86400	IN SOA	X.GTLD-SERVER.NET. admin.gtld-server.net. (
+					2014112703 ; serial
+					43200      ; refresh (12 hours)
+					14400      ; retry (4 hours)
+					345600     ; expire (4 days)
+					7200       ; minimum (2 hours)
+					)
+			86400	RRSIG	SOA 5 1 86400 (
+					20150115162840 20141216162840 51696 com.
+					bJxzSLsdFqKrUlcGytD9f1KxnOOq0AwbxYkl
+					BAO9hTdfhHMsE9YuiJx5TaIZqRE2ZPTNxv2/
+					/TrFBtwfMJS+TaIHJ1xqepG/wx61GYeUlUCq
+					36uKsjQjFHhi+VTZjcEtF8+6wijDaLLW8pAg
+					7znDGDC3ErgQIsLh/tUWfot4ycg= )
+			86400	NS	X.GTLD-SERVER.NET.
+			86400	RRSIG	NS 5 1 86400 (
+					20150115162840 20141216162840 51696 com.
+					NW+VvDGe9zlfmyHWwLmIVvZrBGmQhmpA61XM
+					TKuLGyosf6q1bej5c6vsOzm4oz1AhTpcvoMG
+					85JQBDqLadsWdjyLZDIKDnNQa5AJaq4M1vbo
+					AIXyoHdPMj0F5UmFwJBlLRbRUcUtD1RuUR68
+					uHmJ6YMZs8HlqcXYVubKYNbGREw= )
+			7200	NSEC	cinangka.com. NS SOA RRSIG NSEC DNSKEY
+			7200	RRSIG	NSEC 5 1 7200 (
+					20150115162840 20141216162840 51696 com.
+					gqkZZiVyZ60au5VVLIRaySfuPXDyhUMxO6TX
+					rxe5quHgCPE/Kaoq8JP+iARJSPMdLBTZJ2/H
+					Kx6sfLtL2q+OSUDoz3BEE3rI0PiXj7pOnNjS
+					6EE2j/p2g4sx8VuCoYwfz41q6NDsrDYOz42Z
+					4goXmjfzrcD6dtQxqB540H7+4Ok= )
+			86400	DNSKEY	256 3 5 (
+					AwEAAboscBYPzJCb8uNb7uxlEXkCr90yPONC
+					VXWK0DW+0Xnlsok1dRfQOWxUQighBq64u7bW
+					RTUib5Qy7AfwfXzic/bVmvs2y4OZk6Wr9QvE
+					5DICd6xTcvQlOWX/gojkfDjBevRIA4oEeLlK
+					C63baabryqNA3l5H+Z4lX231jw/Dk8Wh
+					) ; ZSK; alg = RSASHA1; key id = 51696
+			86400	DNSKEY	257 3 5 (
+					AwEAAag0dT4lNJExCCMWksJSATMaos3mSL95
+					lZcokVeXRV2aVJwaQ+iFeZZGBUXDHOn4Ce7h
+					O0N5QQgH0LteWsKmi8e9zHyhNEqIr38nE94c
+					LpyCASwUoj2Kw64tpo9VdSMz6WgRzkYcAORR
+					1p/t8s3J39aXFNx+mgJ+2dnFyJI538btv3Lo
+					2Q3h4gvD6fHPXh2ZUuHc5MBSCu7/97p8/7Ro
+					hTy6ule66rUxY8KC2VIhBMldlWs2zWis+lP9
+					cVNfZlwDwEPdA6Jm97rPJ4HhDeuyJbuQDkhi
+					IxlD5r4cft/mLrL4g2oMu5vlXOlKKNuwe+l1
+					47T1k5VGAx8/Trn+Z3dNdEmDOMhisgnSTLjr
+					vDhyaMOE8lDwfm7FSvQHY8Y7S7bj3yYSM+UY
+					GMchcPIvScd5MchiUB/8W9lLltyE+hj8h16G
+					sRy/FJs3yDZW+JQSmr+OyUoK1wcy6LWAHyoN
+					dXsOnWc72DbcL37mEJMPPFOLOq5ak2irjf73
+					hvtcrjmGZmkEdAm3Iead0jnwIXwqBI1f0kNc
+					Y8R/1f2UBVVmK9iQKZnyRppCDzT8mesnsfXk
+					Xs4D8SuMhtUYz6VpkXzGikV4ZIcGK2tKU2VT
+					ps0Fdga4q5qgFrxWXgU41REk64mXstHv1ZUb
+					wTKb1hJfOuEkTROJsmLEMiPIpOMOIXDIxhHS
+					tbhN
+					) ; KSK; alg = RSASHA1; key id = 16633
+			86400	RRSIG	DNSKEY 5 1 86400 (
+					20150115162840 20141216162840 16633 com.
+					EHPxnzaz9kwr9/oRBUD9mFExaOU8FJRm/Ju8
+					UtmyK+fCUBiW12pQJIh4MQzv676MXYMkwUZg
+					HyueZdGYnypJC6IiFUZ2l4JVsgxnL4FQvY0b
+					wFxH/rEd/WdvUgiIgl5pZrGdj1by3imBboZU
+					k31TmlyXxugwfjhR0tTp+En3vC7JLqoV4PvY
+					txCBnKLU+khSxZD10bxR11YKh1iBacXbHyfT
+					zZd8Of7Ixnliji9HmflVb1m3NkxzBTHm2zI5
+					cDAAAgjWkyBV1Sz79S02GQoZ7XB7SecARvSR
+					At5LsWq9QCBDxChcal/6tZVWxu8Wn0k8KrZ2
+					07aXcZq4vIuJdy3cKSBB7c56c0aIvEkEsGfa
+					VWKqXXujVxI9II1efHo398KS0F9PrkjtmdAt
+					wOM09UlBvsIZwx3vhBUoZYOOcavZDeGN5wmR
+					xQqwnWrAdbcqokR+QeZMHiU7RWTLaHxZJjjE
+					nSnnSrjBUR5AQlIVNiMlVOM+d0xTePIXKcUr
+					sGWwsjQfprAD8m33hW/qmPvfeUMsx3ETQflN
+					UPGiUw1wtmokipRz6Late4T70qCGHlwBemeB
+					xRFfJN3HJ8fwUvZs4jB6xJnAISp2Amlld0l/
+					Mbd3Ngc+pv+Dy/KHNKt3b0oUTKKEdo2umI1P
+					QCNpxCDT3yJN3gPgjTNwHEPp7ibRR8FM+rE= )
+			86400	RRSIG	DNSKEY 5 1 86400 (
+					20150115162840 20141216162840 51696 com.
+					JNt8KGwu/E1PIPNXSui/+i6n4NaqH992PAcU
+					Y6x92Qi2WeDjP34YOw+tblM+ix3G4sZ4MFad
+					Tu1qUCqGD8rU4ybt8M/YGk9jKksjOOqu5z/H
+					nCJLF5P4ZWnMWf1xJMpZXgIbowbbWyCdaCQU
+					jQQftnITqPwJB7HV90NX5oRjmrg= )
+ns.cinangka.com.	86400	IN A	192.168.121.1
+cinangka.com.		86400	IN NS	ns.cinangka.com.
+			86400	DS	58453 5 1 (
+					7454DB18D80C802B8CB5464F47442F97275B
+					C909 )
+			86400	DS	58453 5 2 (
+					7F50AE9F3677E1B499AA0FD0E77A685A5168
+					2179F71DB17DD64171853F1BC424 )
+			86400	RRSIG	DS 5 2 86400 (
+					20150115162840 20141216162840 51696 com.
+					sLr+KWPtxayOrLlcXm2IosfriF7CVDhZRJVh
+					BQCDXVI5SqkVfd1Gmy4MnSKhdPPZTKF1BGk7
+					+AwHdhgs7BpVG7iEcQut7ueUHYQVW6nP8bvI
+					BN5sHU93a7p10dbKgsaVnn5U1XKJfiBd4I55
+					Tn5aIRUyci7UwLUYg9fT6auia/4= )
+			7200	NSEC	com. NS DS RRSIG NSEC
+			7200	RRSIG	NSEC 5 2 7200 (
+					20150115162840 20141216162840 51696 com.
+					Ga8d5z+FXDrjahOB0JyrLoVJ0c2+NqTqdeSn
+					zY+3ijTXFdz2/o2AcjES43wpzKbOdWEDOLNR
+					CdbZcH9b4hfkkBuYsHLwf1XNqSAXx1KEZzDj
+					WZVPO3lxrwvZynwPEh4Ot/rZk/kI74UgrGpb
+					2Q6TyvIqrMxnB3wWbolA7U0pS2U= )

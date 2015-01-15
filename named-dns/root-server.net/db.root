@@ -1,0 +1,19 @@
+$TTL	1d
+
+@	SOA	X.ROOT-SERVER.NET.	admin.root-server.net. (
+		2015011501	;serial
+		12h		;refresh
+		4h		;retry
+		4d		;expire
+		2h		;minTTL
+		)
+
+			NS	X.ROOT-SERVER.NET.
+X.ROOT-SERVER.NET.	A	192.168.100.250
+
+; gTLDs delegation
+NET.			NS	X.GTLD-SERVER.NET.
+COM.			NS	X.GTLD-SERVER.NET.
+
+; Glue
+X.GTLD-SERVER.NET.	A	192.168.100.251

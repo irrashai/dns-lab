@@ -1,0 +1,36 @@
+$TTL	1d
+
+@	SOA	X.GTLD-SERVER.NET.	admin.gtld-server.net. (
+		2014112701	;serial
+		12h		;refresh
+		4h		;retry
+		4d		;expire
+		2h	)	;minTTL
+
+
+		NS	X.GTLD-SERVER.NET.
+
+
+; Delegation
+
+100		NS	ns.irrashai.net.
+
+101		NS	ns.azure.com.
+
+102		NS	ns.lab.com.
+
+103		NS	ns.bds.net.
+
+104		NS	ns.support.net.
+
+105		NS	ns.gecko.net.
+
+106		NS	ns.lablab.com.
+
+107		NS	ns.so.com.
+
+108		NS	ns.com.com.
+
+109		NS	ns.life.com.
+
+110		NS	ns.apnic.com.

@@ -1,0 +1,16 @@
+$TTL	1d
+
+@	SOA	X.GTLD-SERVER.NET.	admin.gtld-server.net. (
+		2015011501	;serial
+		12h		;refresh
+		4h		;retry
+		4d		;expire
+		2h	)	;minTTL
+
+
+		NS	X.GTLD-SERVER.NET.
+168		NS	X.GTLD-SERVER.NET.
+
+; Delegation
+
+0		NS	ns.irrashai.net.

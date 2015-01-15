@@ -1,0 +1,11 @@
+$TTL	864000
+
+@	IN	SOA	localhost.	admin.localhost.	(
+			2015011501	
+			12h
+			4h
+			4d
+			2h )
+
+		NS	localhost.
+1	IN	PTR	localhost.

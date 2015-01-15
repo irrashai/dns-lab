@@ -1,0 +1,162 @@
+; File written on Fri Nov 28 08:20:00 2014
+; dnssec_signzone version 9.9.5-P1
+irrashai.net.		864000	IN SOA	IRRASHAI.NET. test.admin.irrashai.net. (
+					2014112802 ; serial
+					43200      ; refresh (12 hours)
+					14400      ; retry (4 hours)
+					345600     ; expire (4 days)
+					7200       ; minimum (2 hours)
+					)
+			864000	RRSIG	SOA 5 2 864000 (
+					20141227212000 20141127212000 44727 irrashai.net.
+					BykY1GRTDeZL/yK4Z3FzE6psjL6d7kk8Scx8
+					Wlji2jgUBW71SGQ+30VPHj9Bi0XJWj3nKol3
+					1eehounApFfqQkkjvitY8qr0X/7Txx0SO/+S
+					ImCF1Xn2zD3qCHdFYF4iqiRhFvL/S9F8Ynj/
+					gZPrGqLKESliW2bf1MRy5lkO7qo= )
+			864000	NS	NS.IRRASHAI.NET.
+			864000	RRSIG	NS 5 2 864000 (
+					20141227212000 20141127212000 44727 irrashai.net.
+					YgnRfwl3grv33PhR0EO6WCfY+LmpW9ko737b
+					YHlDsX0QXaJhANwBP0jsWOt5yvLo972DIP83
+					892N3FQm3L4CnGKWhxSSgdQ1CQ5nA/N/PvQC
+					t0y9WqNPMwx/UObb+03bxYEP5hy+k9Yxf8ul
+					XdW4p/Ub5DGzwRZxO6H/SoXJl4E= )
+			864000	MX	10 mail01.irrashai.net.
+			864000	MX	20 mail02.irrashai.net.
+			864000	RRSIG	MX 5 2 864000 (
+					20141227212000 20141127212000 44727 irrashai.net.
+					G3T9V66ZsRDc+JRYNIeLHIXC2fmxZp51Bf6a
+					gXgzJB5oK/1qfbc7oFl/bhTk7wPQHNQz2eT5
+					RMMYLLkpjIqk62Nub4Rzqy8ZxV+ePbswnlUU
+					YFjdykA9JUPYuB65VwfQeRp5QYjhVQXRetXN
+					V4mSxRxK9vXRtTF13mZ4NCgcwUE= )
+			7200	NSEC	mail01.irrashai.net. NS SOA MX RRSIG NSEC DNSKEY
+			7200	RRSIG	NSEC 5 2 7200 (
+					20141227212000 20141127212000 44727 irrashai.net.
+					pWZ0/zduUaBMv+G/YIg99xTy6flz1AQqY1O8
+					VYUq2ekNbF0FdvAGwsZdAEi7LYwdkCBEYzBT
+					PhL6An9FCi0QJG5XoSq2Gg5FM2699cXJuXSD
+					Wxq9tg9OLWn77qDnjKtKd7ILLJMzFj/GVvBN
+					Fe2vrtdfrW52ZlMLuGTEsXyJFvs= )
+			864000	DNSKEY	256 3 5 (
+					AwEAAdC8eZ+orPh7nCruVo43z8fIyLbhPerQ
+					HbN31Xd0F2duisPFFOuidYwdoB28Y/YqvAm9
+					/k4e9HyFnQsmCw1Run0Wpq/yTVGIBbFyulxB
+					uPkS0AjXj2LC9Rm460/rtRCkHjgpP3r0/c63
+					3jqnH7uV0RfBy3EWtK2CPAauGzqskA5V
+					) ; ZSK; alg = RSASHA1; key id = 44727
+			864000	DNSKEY	257 3 5 (
+					AwEAAezG20IxG+bqbnU+JXkxlQT2BhAZGECu
+					+IPKbxBA6lu9QNsV53JxrKEFDDPZOZJYAin9
+					kd/kE9SkoVz/2PXhfmEbvVu6DTUJtxfz+VFk
+					nDbW/2yTKRjMZZCTY0dUzMgZUOpOQTEBt76+
+					AxQFMirI1VtMC+JQbvIHfuovPJfnC2qB703K
+					tR6rX3DSwb5KAhMAndEkfRUCnFjME7bWPkef
+					Kf0ZE4jrzhKxN94Ed531DT6xtlt0Oh/3o7oq
+					TI12ec2d7wVyMH8e4nxWJdCU9TpNVB6yOt2w
+					i/Wxf0t2FheBcoYtvLQBAIRvi9M1ZyxCsduJ
+					QOIDv1iXIVZ1Uz7NbjRTNodjzJLQ4H9LUm97
+					cZs7dLnxv+zhc75ZvGiVW3x3hvKppzFp5gOi
+					ALeYG+iTmZWTRIqDhIVbZvfKfgRbFiMInOez
+					2ZG3LiBJUUIXXgfXSW53nbXenec41HRA+yaq
+					XcNUfzT1xMZu2Mj2bU1oHn+sBrTyUqKA8JDh
+					JrySdZrDbdArV5NzxZ6vEE4BMs2IT0jfZvjI
+					mgKqKJk+IQnNvqrefWS4ByvUXVfsBVM5XBX4
+					MfRhI5YnaFyyk0MmO65gABn9hqE5VkwCmnvh
+					6BCKy/1vBPGbd8dAGjKx19Rz50W2UR4oI5zt
+					bvdL6ywasrnr/M3QqskbXQOUMQD8AnDAMR6N
+					bjDR
+					) ; KSK; alg = RSASHA1; key id = 51646
+			864000	RRSIG	DNSKEY 5 2 864000 (
+					20141227212000 20141127212000 44727 irrashai.net.
+					GQ3aDoSiJUUWqsw9as2+G0SKIowqiSupgD/Q
+					10YAdORYWMvnm72vX4RZ+InpOSUl3YJ/rzkA
+					qcPweNu8HfBRImbe5wM/ks0r+mSDnepXx37Y
+					hw8+5GLN+EGtYFm7mdKlt+fwfPOv4MVfYaSp
+					yUCFbe3gYWG6ma8FXUXnpI21lzk= )
+			864000	RRSIG	DNSKEY 5 2 864000 (
+					20141227212000 20141127212000 51646 irrashai.net.
+					w2ytckRs9YcZ0S49D68AhGZYAW0o/hK8QrO8
+					KUcwdmMZ4XT/shljnOYx4raxaqiL7X5c1K5n
+					31ddPxCHzmOvL6kNWY/xhF/xTvk9PABPuTtK
+					Va1tmBpKLgaWR6EcMssLRwbcym1FxezOCdc9
+					ZKLcrYPmx40F3ke/imwHirY1eg0SB4k/g6z7
+					9rLgE1qrwBe62/ZiLnw+VCbu5BqJHaJytZHN
+					JRd9CML/ZE39AyUHFz+/WHIfHuqID0Hwo5RZ
+					ThreiMhVugTbVsBtG8pHjQZowzXVgDm7Ia2g
+					hFfm+LS+o7w29I3gJiwFv/v4yabWGq/M7q9O
+					r28Q+hPmzig9KPAsuLFawZWlm3qdkPy9HH7M
+					OGmeXeYN9cdRoJoySDI5UIQDBV7rYe90nUvZ
+					pi6lUaQ2b0XrbO5xMuuuFNH+4BLcNe+0YtLe
+					f69RZ2XrA955W60pobOIKrWbBiY2L1Gjjyaw
+					JExU9ef6OWHkXLdK3Ahl8QzSMyIaCh/VZ9tN
+					v8Ehfn4Z5ANxC3/ya8at9L4JrvAeqKT0ujvH
+					6zbu0CWI5PX0FLb3jsf5Jknku7fBF8b07BQq
+					mXD+H8eX4l9IIWhy5Vo1Sc8Iaa9JgZdLMI4S
+					mD9Ts5NmBikA00o0ONuZ9tWwxGG4i1xOBKdU
+					NJsBKhit6Y/eNn0CAILGjPD9gYMADdeDCHI= )
+mail01.irrashai.net.	864000	IN A	192.168.100.201
+			864000	RRSIG	A 5 3 864000 (
+					20141227212000 20141127212000 44727 irrashai.net.
+					gRWImxQm9W9ZpdciG+n9vjcLFh+RPWfW5vei
+					U2b3jQFuoSGULofUD0zW8btcn339w8Wjq+Lv
+					tGhz3Ir14KLPyx81zxlMKFdDYM4Yr7qd+kbI
+					60+9t5nGqqqHHGvtOlsH6ndb5xw0VIyg8/Ke
+					eyelZf1Of1m0Vr7sXVyt6eyDpMg= )
+			7200	NSEC	mail02.irrashai.net. A RRSIG NSEC
+			7200	RRSIG	NSEC 5 3 7200 (
+					20141227212000 20141127212000 44727 irrashai.net.
+					OR/F12pagDThmbN/MWyfWzozHTQ+6N1Q+HA/
+					amfyJ5P2xQlIHw54Z1pzPLn9ySgCUjCJXnv0
+					Xb8Mqjd3++CXCwR/Y9LqtjmO5qOIVL9nAJZz
+					A8LyAMJ/vM/u5T+1KtG0e/uc4nGe/MzU3l3h
+					ZO2Q21wW8YNTcAY7pHFLLSl37sw= )
+mail02.irrashai.net.	864000	IN A	192.168.100.202
+			864000	RRSIG	A 5 3 864000 (
+					20141227212000 20141127212000 44727 irrashai.net.
+					xQUs1Op137NPJNjRaqECCIE9oali6xgDY7ti
+					6dg/AyKMPEGqC+oKAD1Euek3ZJFwKVbZfyuk
+					RSlPvmRULVwopgRcOQv7SyRor7r/9Y2ejXPq
+					saWEn67V/hMMftEep6JhAgpRkWKSYzbjjgSE
+					5pVu9BcuxJ1FvlNpQXMpiyPeHI0= )
+			7200	NSEC	ns.irrashai.net. A RRSIG NSEC
+			7200	RRSIG	NSEC 5 3 7200 (
+					20141227212000 20141127212000 44727 irrashai.net.
+					r1gDSld/6hm6AF+0Tq8ny3FUwciIpbWgUiJN
+					0/MPqn4M4CCaFiWVZVWXYB2spZLZhQYPuNsc
+					HoYxBihI/W4gVjrRkdvk2eLmXJc1u1S3xclz
+					lhiuRrugCDgUVS26dnVMGnVrNLyXays5Pg7w
+					e8aq1/Ql5uwN+MKEsXECgNGdVnA= )
+ns.irrashai.net.	864000	IN A	192.168.100.8
+			864000	RRSIG	A 5 3 864000 (
+					20141227212000 20141127212000 44727 irrashai.net.
+					Y9RBHZ3dT5ZrHEMbsH690ux25kLXjitNTT5D
+					itsWhFEJa+O6ElsaMm+vKvqN4xS1Xwrr8Yiu
+					uDkXw7IK1xRp9mUBEMoHgs3JytwrQKkS8fmQ
+					EzEYph4cdLIj+dQ0m4xFrajwfGbdNEnVsCa2
+					Zt3A2pGQ+ZE7oN48hnJj6KvGAKw= )
+			7200	NSEC	www.irrashai.net. A RRSIG NSEC
+			7200	RRSIG	NSEC 5 3 7200 (
+					20141227212000 20141127212000 44727 irrashai.net.
+					k/gS0tiPRL9Qs5NNBYkHozUh8iMLZYjK48d8
+					e59aV9zPs+2ga9V/nMrYCKXLcRao7i6MlWNa
+					27TlFj3XrXhviB57hXcjxvnEFeDNOXp++P3D
+					Rcw59OtdtOBjDQotlPiV4PI77ZRaYHuS/rmx
+					D5sq3qQubcozs1c9VByVN0yBuaI= )
+www.irrashai.net.	864000	IN A	192.168.100.100
+			864000	RRSIG	A 5 3 864000 (
+					20141227212000 20141127212000 44727 irrashai.net.
+					TZF9DTG3wnRvhCVjTnd1oO7Inn6CN/4KEhSq
+					9GwxahdQcb1z14iN5+Wg8F+dNdIMsfHctQEh
+					1La+Vr+xTQ9xCfk6QrYr9nxR1Ecw7nsph+NB
+					oLjV+0kg42SmDhqFa8vKLoheN1+pQoGu+9pz
+					gmCGdXsLO0AfgTxb40oBMd2asuM= )
+			7200	NSEC	irrashai.net. A RRSIG NSEC
+			7200	RRSIG	NSEC 5 3 7200 (
+					20141227212000 20141127212000 44727 irrashai.net.
+					PFbjqYIlQ8x7HBUa6Spg3tjTaCgthbhMeF52
+					4LCbBt3noo9SdpG6uNNA8t1aG5QPHmABzDEk
+					lz635NaxMuA/rWHZwnPUkdAQ9mP5zYJuq4rL
+					YcJ0ZOnHX5elLmmfGnFPb9Oq1s5n6zDzqETW
+					edQZNQwPcUHAZgHDdO1AqCz/8ZU= )

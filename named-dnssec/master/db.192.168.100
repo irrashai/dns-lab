@@ -1,0 +1,15 @@
+$TTL	864000
+
+@	IN	SOA	IRRASHAI.NET.	test.admin.irrashai.net.	(
+			2014111202
+			12h
+			4h
+			4d
+			2h )
+
+		NS	NS.IRRASHAI.NET.
+
+1		PTR	ns.irrashai.net.
+100		PTR	www.irrashai.net.
+201		PTR	mail01.irrashai.net.
+202		PTR	mail02.irrashai.net.

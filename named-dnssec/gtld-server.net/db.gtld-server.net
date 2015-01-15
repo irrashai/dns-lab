@@ -1,0 +1,15 @@
+$TTL	1d
+
+@	SOA	X.GTLD-SERVER.NET.	admin.gtld-server.net. (
+		2014112701	;serial
+		12h		;refresh
+		4h		;retry
+		4d		;expire
+		2h	)	;minTTL
+
+
+			NS	X.GTLD-SERVER.NET.
+
+X.GTLD-SERVER.NET.	A	192.168.100.251
+
+; Resource Records
