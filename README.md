@@ -1,6 +1,6 @@
 # DNS LAB
 
-This is a lab DNS setup, with own local/private root and gTLD servers. It contains config for root, gtld, recursive and master nameservers.
+This is an example DNS lab setup, with its own local/private root and gTLD servers. It contains config for root, gtld, recursive and master nameservers.
 
 There are two folders:
 * named-dns = contains configs for DNS-only implementation
