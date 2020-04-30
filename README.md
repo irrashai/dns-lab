@@ -30,8 +30,6 @@ create-bind9-source-containers.sh
 
 * Create the auth servers by cloning the centos-bind9 containers:
 
-* Run the servers:
-
 ```
 create-bind9-rpm-container.sh
 ```
