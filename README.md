@@ -22,12 +22,14 @@ For the participant servers, we can have two sets.
 
 The steps assume that the base servers `centos-bind9` and centos-bind9-source` have already been set up.
 
-# Create the dev servers: 
+* Create the dev servers: 
 
-`start-bind9-source-containers.sh`
-`start-bind-containers.sh`
+```
+start-bind9-source-containers.sh
+start-bind-containers.sh
+```
 
-# Run the servers:
+* Run the servers:
 
 ```
 start-20-bind-containers.sh
