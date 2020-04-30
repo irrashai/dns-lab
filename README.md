@@ -22,6 +22,26 @@ For the participant servers, we can have two sets.
 
 The steps assume that the base servers `centos-bind9` and `centos-bind9-source` have already been set up.
 
+* Create the base servers
+
+```
+lxc image list images: | grep -i "centos 7"
+lxc launch centos/7/cloud/arm64 centos-base 
+lxc exec centos-base -- /bin/bash
+yum install bind bind-utils bind-libs 
+yum install openssh-server  
+```
+
+* Create and setup root and gtld servers.
+
+```
+lxc snapshot centos-bind9 bind911
+lxt copy centos-bind9/bind911 root-server
+lxc copy centos-bind9/bind911 gtld-server
+lxc file push named-dns/root-server.net root-server$n/var/named/master
+lxc file push named-dns/gtld-server.net gtld-server$n/var/named/master
+```
+
 * Create the dev servers by cloning the centos-bind9 container
 
 ```
