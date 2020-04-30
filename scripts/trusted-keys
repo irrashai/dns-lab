@@ -1,0 +1,5 @@
+trusted-keys {
+/* Root Public KSK for validation */
+	. 257 3 13 "9wemleO6Vq+sqlHDKOURjZyB06k7m2uhYzLaj5x0Px0/eJDINNP5v/nE eue+4jFJ2Bq0JLkBcV5yoG9TI2NFMQ==";
+};
+
