@@ -1,0 +1,12 @@
+$TTL 1D
+@	IN SOA	ns.gtld-servers.net.  dnsops.apnic.net.  (
+					2019111903	; serial
+						1D	; refresh
+						1H	; retry
+						1W	; expire
+						3H )	; minimum
+
+				NS	ns.gtld-servers.net.
+
+
+10.in-addr.arpa			NS	ns.gtld-servers.net.

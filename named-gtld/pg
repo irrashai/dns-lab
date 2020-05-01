@@ -1,0 +1,41 @@
+$TTL 1D
+@	IN SOA	ns.gtld-servers.net.  dnsops.apnic.net.  (
+					2019111905	; serial
+						1D	; refresh
+						1H	; retry
+						1W	; expire
+						3H )	; minimum
+
+				NS	ns.gtld-servers.net.
+
+
+example.pg.			NS	ns.example.pg.
+ns.example.pg.			A	192.168.0.1
+
+plesmahn.pg.			NS	ns1.plesmahn.pg.
+plesmahn.pg.			NS	ns1.niupoint.net.
+plesmahn.pg.			DS 3886 5 2 CE921900257840244CD3FB9D275C178C180A5FC6512187C36ADE001A A833367F
+ns1.plesmahn.pg.		A	10.0.7.53
+
+dnssec.pg.			NS      ns1.dnssec.pg.
+dnssec.pg.			NS      ns1.nictan.net.
+dnssec.pg.			DS 17614 8 2 20251623C74BB379CD701EB9900A9B6632723303D657BCD2F9F999B8 318E3E2F
+ns1.dnssec.pg.			A	10.0.10.53
+
+mint.pg.			NS	ns1.mint.pg.
+mint.pg.			NS	ns1.mycompany.net.
+mint.pg.			DS 4624 5 2 023507EE281AD971467F1ED4098A09E9E0BAEFFC5518C0F771C06218 A6427E58
+ns1.mint.pg.			A	10.0.1.53
+
+groupfour.pg.			NS	ns1.groupfour.pg.
+groupfour.pg.			NS	ns1.wakanda4life.net.
+groupfour.pg.			DS 30187 8 2 A19D34EAE13E1EAA6CAA395CBF46A7CD2AF685A4018F780FD6DE83E0 5035C471
+ns1.groupfour.pg.		A	10.0.4.53
+
+laenog.pg.			NS	ns1.laenog.pg.
+laenog.pg.			NS	ns1.morobe.net.
+laenog.pg.			DS 39430 8 2 DFED1BF60DBADC88B2E02EEDEE92E71F9084481A7471946D819290B6 6A3CD372
+ns1.laenog.pg.			A	10.0.3.53
+
+pomsrv11.pg.			NS	www.pomsrv11.pg.
+www.pomsrv11.pg.		A	10.0.11.53

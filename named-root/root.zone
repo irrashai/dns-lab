@@ -1,0 +1,24 @@
+$TTL 1D
+@	IN SOA	ns.root-servers.net.  dnsops.apnic.net.  (
+					2019111902	; serial
+						1D	; refresh
+						1H	; retry
+						1W	; expire
+						3H )	; minimum
+
+			NS	ns.root-servers.net.
+			A	10.0.100.53
+
+net.                    NS      ns.gtld-servers.net.
+com.                    NS      ns.gtld-servers.net.
+org.			NS	ns.gtld-servers.net.
+pg. 	                NS      ns.gtld-servers.net.
+png.                    NS      ns.gtld-servers.net.
+in-addr.arpa.		NS      ns.gtld-servers.net.
+ip6.arpa.		NS      ns.gtld-servers.net.
+net. 			DS 30666 13 2 27BE0274EBA750A6C4AEB45CDD21E558528A12A33DDAE2657C38D316FF44C4C4
+pg. 			DS 14684 13 2 67154D624DFD8C9DB79EC68D4D9EAC964D1F2977F5016E7EF12BF0A354D6656F
+
+ns.gtld-servers.net.	A	10.0.200.53
+
+

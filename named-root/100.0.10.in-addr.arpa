@@ -1,0 +1,11 @@
+$TTL 1D
+@	IN SOA	ns.root-servers.net.  dnsops.apnic.net.  (
+					2019111901	; serial
+						1D	; refresh
+						1H	; retry
+						1W	; expire
+						3H )	; minimum
+
+			NS	ns.root-servers.net.
+
+53			PTR	ns.root-servers.net.

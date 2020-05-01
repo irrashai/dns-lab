@@ -1,0 +1,51 @@
+$TTL 1D
+@	IN SOA	ns.gtld-servers.net.  dnsops.apnic.net.  (
+					2019111908	; serial
+						1D	; refresh
+						1H	; retry
+						1W	; expire
+						3H )	; minimum
+
+				NS	ns.gtld-servers.net.
+
+
+gtld-servers.net.		NS	ns.gtld-servers.net.
+gtld-servers.net. 		DS 1135 13 2 0B79312EF0AE328ECC7D9D2780E14D858EA9333EB71C1BC3A415A607BAAF852E
+ns.gtld-servers.net.		A	10.0.200.53
+
+root-servers.net.		NS	ns.root-servers.net.
+ns.root-servers.net.		A	10.0.100.53
+root-servers.net. 		DS 30068 13 2 6C8DC03B44E0EE3815EF430B46FB18E2E13CE10DF8A50A8323725CF34BEAB73C
+
+niupoint.net.			NS	ns1.niupoint.net.
+niupoint.net.			NS	ns1.plesmahn.pg.
+niupoint.net.			DS 7813 5 2 7392FF920B6A71870F03E45BB9049A6FA50785B400E943E9D45F760E 4937BF10
+ns1.niupoint.net.		A	10.0.6.53
+
+wakanda4life.net.		NS	ns1.wakanda4life.net.
+wakanda4life.net.		NS	 ns1.groupfour.pg.
+wakanda4life.net.		DS 17842 5 2 EECB48C10AEDA03C2B442526C3D650CF088B273EDB520146E637418D C5A38017
+ns1.wakanda4life.net.		A	10.0.5.53
+
+nictan.net.			NS	ns1.nictan.net.
+nictan.net.                     NS	ns1.dnssec.pg.
+nictan.net.			DS 39664 8 2 E09FE62DDFB78B39366FDEFFADB802D25C136FBEFB3E52CE1B02D2C5 9F93453A
+ns1.nictan.net.			A	10.0.9.53
+
+kurakum.net.			NS	ns1.kurakum.net.
+kurakum.net.			NS	ns1.fairfax.net.
+kurakum.net.			DS 6937 5 2 C0EBC61B3618C42A4916DE030965B6C5853F8C35FA8B4684C0AA9E35 10B99FD4
+ns1.kurakum.net.		A	10.0.8.53
+
+morobe.net.			NS	ns1.morobe.net.
+morobe.net.                     NS	ns1.laenog.org.
+ns1.morobe.net.			A	10.0.2.53
+
+fairfax.net.			NS	ns1.fairfax.net.
+fairfax.net.                    NS 	ns1.kurakum.net.
+ns1.fairfax.net.		A	10.0.12.53
+
+mycompany.net.			NS	ns1.mycompany.net.
+mycompany.net.                  NS	ns1.mint.pg.	
+mycompany.net.			DS 27781 8 2 ABC178FFB7A84EC908C123050B0E4DF67BFC37C2D434DD29680BE957 AEFBA1F4
+ns1.mycompany.net.		A	10.0.13.53

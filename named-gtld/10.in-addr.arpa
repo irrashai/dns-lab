@@ -1,0 +1,24 @@
+$TTL 1D
+10.in-addr.arpa.  IN SOA ns.gtld-servers.net.  dnsops.apnic.net.  (
+					2019112005	; serial
+						1D	; refresh
+						1H	; retry
+						1W	; expire
+						3H )	; minimum
+
+				NS	ns.gtld-servers.net.
+
+1.0				NS	ns1.mint.pg.
+2.0				NS	ns1.morobe.net.		
+3.0				NS	ns1.laenog.pg.
+4.0				NS	ns1.groupfour.pg.
+5.0				NS	ns1.wakanda4life.net.
+6.0				NS	ns1.niupoint.net.
+7.0.10.in-addr.arpa.		NS	ns1.plesmahn.pg.
+7.0.10.in-addr.arpa.		DS 6052 5 2 81075969FF31FDAC7ACF5B641B064008EC73755FA2DB666C3D193FE6 297EE55D
+8.0				NS	ns1.kurakum.net.
+9.0				NS	ns1.nictan.net.
+10.0				NS	ns1.dnssec.pg.
+11.0				NS	ns1.pomsrv11.pg.
+12.0				NS	ns1.fairfax.net.
+13.0				NS	ns1.mycompany.net.
