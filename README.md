@@ -17,6 +17,9 @@ For the participant servers, we can have two sets.
 * dev server - used for the dnssec validation lab; uses the actual root.ca/named.cache from the Internet (pointing to a-m.root-servers.net)
 * serverX - used for the dnssec signing lab; uses the lab root.ca/named.cache pointing to lab root and gtld
 
+### Reference Configuration
+
+The folders `named-dns` and `named-dnssec` are config from old setup but may still be used as reference configurations for the lab.
 
 ### Running the Lab using LXC
 
@@ -38,8 +41,8 @@ yum install openssh-server
 lxc snapshot centos-bind9 bind911
 lxt copy centos-bind9/bind911 root-server
 lxc copy centos-bind9/bind911 gtld-server
-lxc file push named-dns/root-server.net root-server$n/var/named/master
-lxc file push named-dns/gtld-server.net gtld-server$n/var/named/master
+lxc file push named-root root-server$n/var/named/master
+lxc file push named-gtld gtld-server$n/var/named/master
 ```
 
 * Create the dev servers by cloning the centos-bind9 container
